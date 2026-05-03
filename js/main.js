@@ -21,7 +21,7 @@ async function convertCurrency() {
     let res = await fetch("https://api.exchangerate-api.com/v4/latest/NGN");
     let data = await res.json();
     let usd = (3500 * data.rates.USD).toFixed(2);
-    document.getElementById("usdPrice").innerText = "$" + usd + " / Session";
+    document.getElementById("usdPrice").innerText = "$" + usd;
   } catch {
     document.getElementById("usdPrice").innerText = "USD unavailable";
   }

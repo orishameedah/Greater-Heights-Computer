@@ -148,12 +148,14 @@
         Have questions or want to learn more about our training programs? Fill
         out the form below or reach us directly on WhatsApp or by phone.
       </p>
-      <form class="contact-form">
-        <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
-        <input type="tel" placeholder="Phone" required />
-        <textarea class="msg" placeholder="Your Inquiry"></textarea>
-        <button class="send">Send Message</button>
+      <form class="contact-form" id="contact-form">
+        <input type="text" id="userName" placeholder="Name" required />
+        <input type="email" id="userEmail" placeholder="Email" required />
+        <input type="tel" id="userPhone" placeholder="Phone" required />
+        <textarea class="msg" id="userInquiry" placeholder="Your Inquiry"></textarea>
+        <button type="submit" id="submitBtn" class="send">Send Message</button>
+      </form>
+      <div id="form-status"></div>
       </form>
       <p class="contact-note">
         For quick inquiries, reach us directly on WhatsApp or call us.

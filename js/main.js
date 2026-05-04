@@ -80,7 +80,7 @@ form.addEventListener("submit", (e) => {
       `;
 
       // Countdown timer
-      let seconds = 15;
+      let seconds = 10;
       const countdownElement = document.getElementById("countdown");
       const interval = setInterval(() => {
         seconds--;

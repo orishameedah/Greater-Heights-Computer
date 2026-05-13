@@ -498,6 +498,13 @@ footer {
   padding: 30px;
   background: #363221;
   margin-top: 50px;
+  color: white;
+}
+
+.footer-address {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: 0.8;
 }
 
 /* MOBILE */
